@@ -1,0 +1,11 @@
+.active{
+    color: yellow;
+    padding : 0px 3px;
+    cursor: pointer;
+}
+
+.inactive{
+    color: black;
+    padding : 0px 3px;
+    cursor: pointer;
+}

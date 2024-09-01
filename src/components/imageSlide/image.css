@@ -1,0 +1,34 @@
+.Contianer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+
+}
+
+.current-image{
+    height : 300px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.arrow{
+    position: absolute;
+    color : rgba(211,211,211,0.60);
+    width: 35px;
+    height : 35px;
+    cursor: pointer;
+}
+.arrow-left{
+    left : 10px;
+}
+.arrow-right{
+    right : 10px;
+}
+.hide-current-image{
+    display: none;
+}
+
